@@ -2,7 +2,7 @@ program PjSync;
 
 uses
   Vcl.Forms,
-  UCadastroPessoa in 'UCadastroPessoa.pas' {frmCadastroPessoa},
+  uCadastroPessoa in 'uCadastroPessoa.pas' {frmCadastroPessoa},
   UWebServiceCNPJ in 'UWebServiceCNPJ.pas' {DMRotinas: TDataModule};
 
 {$R *.res}

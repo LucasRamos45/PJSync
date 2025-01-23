@@ -1,4 +1,4 @@
-unit uRotinasComuns;
+unit UWebServiceCNPJ;
 
 interface
 
