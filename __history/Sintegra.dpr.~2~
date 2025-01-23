@@ -1,0 +1,16 @@
+program Sintegra;
+
+uses
+  Vcl.Forms,
+  uCadastro in 'uCadastro.pas' {Form1},
+  uRotinasComuns in 'uRotinasComuns.pas' {DMRotinas: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDMRotinas, DMRotinas);
+  Application.Run;
+end.
